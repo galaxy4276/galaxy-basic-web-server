@@ -1,3 +1,6 @@
+![main_icon.png](./galaxy-webserver.png =250x250)
+## Simple Galaxy Web Server (Node.js)
+
 
 ## WIL
 TCP 수준의 소켓 프로그래밍과 HTTP의 메시지 전송 패턴을 파악하여
