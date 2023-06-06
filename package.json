@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon --watch ./*.ts --exec ts-node main.ts"
+    "start": "nodemon --watch ./*/**.ts --exec ts-node main.ts"
   },
   "keywords": [],
   "author": "",

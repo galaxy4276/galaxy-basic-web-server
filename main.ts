@@ -1,4 +1,4 @@
-import { createWebServer } from './handle';
+import { createWebServer } from './http/handle';
 
 const server = createWebServer((req, res) => {
   console.debug('요청 콜백이 수행 됨');
