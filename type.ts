@@ -6,6 +6,7 @@ export interface Request {
   httpVersion: string;
   headers: Record<string, string>;
   socket: Socket;
+  body: Record<string, unknown>;
 }
 
 type Chunk = any;

@@ -1,11 +1,13 @@
 import { createWebServer } from './http/handle';
+import { createLogFileIfNotExists } from './log';
 
+createLogFileIfNotExists();
 const server = createWebServer((req, res) => {
   console.debug('요청 콜백이 수행 됨');
-  console.log(`${new Date().toISOString()} - ${req.method} ${req.url}`);
-  console.log(req.headers);
   res.setHeader('Content-Type', 'text/plain');
-  res.json({ a: 'b' });
+  console.debug('body 출력');
+  console.debug(req.body);
+  res.end('Hello World');
 });
 
 server.listen(3000, () => {
