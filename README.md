@@ -1,5 +1,5 @@
-![main_icon.png](./galaxy-webserver.png =250x250)
 ## Simple Galaxy Web Server (Node.js)
+<img src="./galaxy-webserver.png" width="200" height="200" />
 
 
 ## WIL
